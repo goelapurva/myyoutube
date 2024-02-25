@@ -210,6 +210,10 @@ export const YOUTUBE_VIDEOS_API =
         "subscriber": "25254545 Subscribers",
         "isLive": true
     },
-]
+];
+
+//export const YOUTUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=namaste";
+
+export const YOUTUBE_SEARCH_API ='https://demo.dataverse.org/api/search?q=';
 
 
