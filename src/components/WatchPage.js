@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import CommentsContainer from './CommentsContainer';
+import Livechat from './Livechat';
+
 
 const WatchPage = () => {
 
@@ -16,8 +18,9 @@ const WatchPage = () => {
     }, []);
 
   return (
-    <div className='flex flex-col'>
-    <div className='p-2 m-2'>
+    <div className='flex flex-col w-full'>
+    <div className='p-2 m-4 flex '>
+        <div>
       <iframe width="1100" 
       height="550" 
       src={"https://www.youtube.com/embed/kKvK2foOTJM"}
@@ -26,6 +29,10 @@ const WatchPage = () => {
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
        allowfullscreen>
        </iframe>
+       </div>
+       <div className="w-full">
+        <Livechat />
+       </div>
     </div>
     <CommentsContainer />
     </div>

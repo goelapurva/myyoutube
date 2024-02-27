@@ -216,4 +216,6 @@ export const YOUTUBE_VIDEOS_API =
 
 export const YOUTUBE_SEARCH_API ='https://demo.dataverse.org/api/search?q=';
 
+export const OFFSET_LIVE_CHAT= 20;
+
 
