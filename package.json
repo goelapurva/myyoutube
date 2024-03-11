@@ -39,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.1",
-     "@babel/plugin-transform-private-property-in-object"
+    "tailwindcss": "^3.4.1"
   }
 }
